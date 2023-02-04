@@ -9,13 +9,7 @@ import "./index.css"
 import { Provider } from 'react-redux'
 import { store } from './store'
 
-import('./App')
-  .then(moduleA => {
-    moduleA.default();
-  })
-  .catch(error => {
-    console.error(error);
-  });
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <Provider store={store}>
