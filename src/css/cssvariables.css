@@ -1,0 +1,23 @@
+:root{
+    --primary-color:rgb(85, 105, 255);
+    --purple-hover:rgba(85, 105, 255, 0.642);
+    --primary-color-hover:#ffffff9f;
+    --white:#F5F5F5;
+    --black:#444;
+    --box-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --box-shadow-lg:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    --open-sans: 'Open Sans', sans-serif;
+    --source-sans:'Source Sans Pro', sans-serif;
+    --common-radius:1rem;
+    --common-round-radius:3rem;
+    --common-transition:.5s;
+}
+
+
+#themeChanged{
+    --white:rgb(28, 28, 28);
+    --black:#fff;
+    --box-shadow-lg:   1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+

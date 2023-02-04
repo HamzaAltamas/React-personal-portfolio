@@ -1,0 +1,30 @@
+import React from 'react'
+import { Container, Row } from 'react-bootstrap'
+import SectionHeading from '../components/SectionHeading'
+import ServicesCard from '../components/ServicesCard'
+import "../css/services.css"
+import {BsFileEarmarkCodeFill} from 'react-icons/bs'
+import {IoLogoNodejs} from 'react-icons/io'
+import {TbBrandReactNative,TbZoomCode,TbServer2}  from 'react-icons/tb'
+import {MdOutlineDesignServices} from 'react-icons/md'
+
+const Service = () => {
+  return (
+    <>
+    <title>Service | Hamza Altamas</title>
+    <Container className='mt-lg-5 mt-md-0 mt-sm-0'>
+      <div><SectionHeading title="Services I provide"/></div>
+      <Row className='mt-4 mb-5 gy-4'>
+        <ServicesCard icon={ <BsFileEarmarkCodeFill/>} cardTitle="Front-end Development" details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repudiandae atque enim inventore at? Illum, odio reprehenderit? Cumque laborum ipsum explicabo sint sequi doloremque officia, libero fugiat reprehenderit deserunt natus aliquam ut! Incidunt soluta veritatis officia iure voluptate porro, provident, reiciendis tempore aperiam eius, libero accusantium? Possimus provident quisquam perferendis id ab aut dolor odio quos rerum, qui, exercitationem cupiditate obcaecati animi. Soluta neque quam, enim veritatis delectus ad. Amet eligendi commodi dolores delectus assumenda eveniet fuga dolor architecto quo, reprehenderit aut voluptate iste consequuntur, nulla fugit possimus nemo mollitia ratione maiores eos id, quod labore sed porro. Unde, vero."/>
+        <ServicesCard icon={ <IoLogoNodejs/>} cardTitle="Back-end Development" details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repudiandae atque enim inventore at? Illum, odio reprehenderit? Cumque laborum ipsum explicabo sint sequi doloremque officia, libero fugiat reprehenderit deserunt natus aliquam ut! Incidunt soluta veritatis officia iure voluptate porro, provident, reiciendis tempore aperiam eius, libero accusantium? Possimus provident quisquam perferendis id ab aut dolor odio quos rerum, qui, exercitationem cupiditate obcaecati animi. Soluta neque quam, enim veritatis delectus ad. Amet eligendi commodi dolores delectus assumenda eveniet fuga dolor architecto quo, reprehenderit aut voluptate iste consequuntur, nulla fugit possimus nemo mollitia ratione maiores eos id, quod labore sed porro. Unde, vero."/>
+        <ServicesCard icon={ <TbBrandReactNative/>} cardTitle="App Development" details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repudiandae atque enim inventore at? Illum, odio reprehenderit? Cumque laborum ipsum explicabo sint sequi doloremque officia, libero fugiat reprehenderit deserunt natus aliquam ut! Incidunt soluta veritatis officia iure voluptate porro, provident, reiciendis tempore aperiam eius, libero accusantium? Possimus provident quisquam perferendis id ab aut dolor odio quos rerum, qui, exercitationem cupiditate obcaecati animi. Soluta neque quam, enim veritatis delectus ad. Amet eligendi commodi dolores delectus assumenda eveniet fuga dolor architecto quo, reprehenderit aut voluptate iste consequuntur, nulla fugit possimus nemo mollitia ratione maiores eos id, quod labore sed porro. Unde, vero."/>
+        <ServicesCard icon={ <MdOutlineDesignServices/>} cardTitle="UI/UX" details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repudiandae atque enim inventore at? Illum, odio reprehenderit? Cumque laborum ipsum explicabo sint sequi doloremque officia, libero fugiat reprehenderit deserunt natus aliquam ut! Incidunt soluta veritatis officia iure voluptate porro, provident, reiciendis tempore aperiam eius, libero accusantium? Possimus provident quisquam perferendis id ab aut dolor odio quos rerum, qui, exercitationem cupiditate obcaecati animi. Soluta neque quam, enim veritatis delectus ad. Amet eligendi commodi dolores delectus assumenda eveniet fuga dolor architecto quo, reprehenderit aut voluptate iste consequuntur, nulla fugit possimus nemo mollitia ratione maiores eos id, quod labore sed porro. Unde, vero."/>
+        <ServicesCard icon={ <TbZoomCode/>} cardTitle="Web App Development" details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repudiandae atque enim inventore at? Illum, odio reprehenderit? Cumque laborum ipsum explicabo sint sequi doloremque officia, libero fugiat reprehenderit deserunt natus aliquam ut! Incidunt soluta veritatis officia iure voluptate porro, provident, reiciendis tempore aperiam eius, libero accusantium? Possimus provident quisquam perferendis id ab aut dolor odio quos rerum, qui, exercitationem cupiditate obcaecati animi. Soluta neque quam, enim veritatis delectus ad. Amet eligendi commodi dolores delectus assumenda eveniet fuga dolor architecto quo, reprehenderit aut voluptate iste consequuntur, nulla fugit possimus nemo mollitia ratione maiores eos id, quod labore sed porro. Unde, vero."/>
+        <ServicesCard icon={ <TbServer2/>} cardTitle="Server Hosting" details="Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repudiandae atque enim inventore at? Illum, odio reprehenderit? Cumque laborum ipsum explicabo sint sequi doloremque officia, libero fugiat reprehenderit deserunt natus aliquam ut! Incidunt soluta veritatis officia iure voluptate porro, provident, reiciendis tempore aperiam eius, libero accusantium? Possimus provident quisquam perferendis id ab aut dolor odio quos rerum, qui, exercitationem cupiditate obcaecati animi. Soluta neque quam, enim veritatis delectus ad. Amet eligendi commodi dolores delectus assumenda eveniet fuga dolor architecto quo, reprehenderit aut voluptate iste consequuntur, nulla fugit possimus nemo mollitia ratione maiores eos id, quod labore sed porro. Unde, vero."/>
+      </Row>
+    </Container>
+    </>
+  )
+}
+
+export default Service

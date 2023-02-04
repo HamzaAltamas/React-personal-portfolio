@@ -1,0 +1,10 @@
+.infobar{
+    font-family:var(--open-sans) ;
+    text-transform: uppercase;
+    border-left: .3rem solid var(--primary-color);
+    border-right: .3rem solid var(--primary-color);
+    color:var(--black);
+}
+.about-info-item{
+    
+}

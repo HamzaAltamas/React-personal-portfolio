@@ -1,0 +1,75 @@
+.deeppurple {
+    --primary-color: #660099;
+    --purple-hover: #6600999a;
+  }
+  
+  .lavender {
+    --primary-color:#9b9bfd;
+    --purple-hover:#9b9bfd9f;
+  }
+  
+  .lightpurple {
+    --primary-color:rgb(85, 105, 255) ;
+    --purple-hover:rgba(85, 105, 255, 0.621) ;
+  }
+  
+  .brightred {
+    --primary-color: #ff5c5c;
+    --purple-hover:#ff5c5c84 ;
+  }
+  
+  .orangered {
+    --primary-color:#FF4500 ;
+    --purple-hover:#ff440089 ;
+  }
+  
+  .goldenyellow {
+    --primary-color:#FDB813 ;
+    --purple-hover: #fdb71373;
+  }
+  
+  .lemonyellow {
+    --primary-color: #ccff00;
+    --purple-hover: #ccff0084;
+  }
+  
+  .forestgreen {
+    --primary-color:#228B22 ;
+    --purple-hover: #228b2283;
+  }
+  
+  .limegreen {
+    --primary-color: #32CD32;
+    --purple-hover: #32cd327e;
+  }
+  
+  .sagegreen {
+    --primary-color:#9DC183 ;
+    --purple-hover:#9dc1838f ;
+  }
+  
+  .lightgreen {
+    --primary-color:#90EE90 ;
+    --purple-hover: #90ee909d;
+  }
+  
+  .brightgreen {
+    --primary-color: #FF69B4;
+    --purple-hover:#ff69b497 ;
+  }
+  .darkmagenta{
+    --primary-color: #8B008B;
+    --purple-hover: #8b008b90;
+  }
+  .salmon{
+    --primary-color:#FA8072 ;
+    --purple-hover:#fa80727e ;
+  }
+  .golden{
+    --primary-color: #FFD700;
+    --purple-hover: #ffd9007e;
+  }
+  .yellow{
+    --primary-color: #00ff84;
+    --purple-hover: #00ff8476;
+  }

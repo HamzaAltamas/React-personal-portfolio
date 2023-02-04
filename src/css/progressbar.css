@@ -1,0 +1,62 @@
+.progress-bar-wrapper{
+    box-shadow: var(--box-shadow-lg);
+    border-radius: var(--common-radius);
+    background-color: var(--white);
+}
+.progress-bar{
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.progress-bar-circ-container h2{
+    font-family: var(--source-sans) !important;
+    color: var(--black) !important;
+    font-size: 45px !important;
+font-weight: bold;
+}
+.progress-bar-hollow{
+    fill: var(--white) !important;
+}
+.progress-bar-track{
+    stroke: var(--primary-color);
+}
+.progress-bar-trackPath-background{
+    stroke: #d1d1d1 !important;
+    
+}
+circle{
+    stroke: transparent ;
+    box-shadow: var(--box-shadow-lg) !important;
+}
+.skill-name{
+ color: var(--black);
+ font-family: var(--source-sans);   
+}
+
+/* horizontal progressbar start */
+.progress-bar-rect-wrap-container{
+    display: flex;
+    column-gap: 20px !important;
+    
+   
+}
+.progress-bar-rect-wrapper{
+    border: 1px solid var(--primary-color) !important;
+    background-color: var(--white);
+
+}
+.rect-progress-bar-percent,.progress-title{
+    font-family: var(--source-sans) !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    color: var(--black);
+}
+
+.inner-rect-bar{
+    background-color: var(--primary-color) !important;
+}

@@ -1,0 +1,24 @@
+.about-education-info-item{
+    padding: 1rem;
+    box-shadow: var(--box-shadow-lg);
+    border-radius: var(--common-radius);
+    background-color: var(--white);
+}
+.about-education-info-item h5{
+    color: var(--primary-color);
+    font-family: var(--open-sans);
+}
+.about-education-info-item small{
+    color: var(--black);
+    font-family: var(--source-sans);
+}
+.about-education-info-item h6{
+    color: var(--black);
+    font-family: var(--source-sans);
+}
+.about-education-info-item hr{
+    margin-top: 10px !important;
+}
+.about-edu{
+    color: #929292 !important;
+}

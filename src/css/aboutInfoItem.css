@@ -1,0 +1,14 @@
+.about-info-item{
+    margin: .5rem 0;
+    padding-left: .5rem;
+    border-left: 1px solid #d1d1d1;
+    
+}
+.about-info-item h5{
+   font-family: var(--open-sans);
+   color: var(--primary-color);
+}
+.about-info-item h6{
+    font-family: var(--source-sans);
+    color: var(--black);
+}
