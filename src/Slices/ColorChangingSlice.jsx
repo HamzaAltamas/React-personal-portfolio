@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 export const colorChangingSlice = createSlice({
   name: 'ColorChange',
@@ -22,5 +22,4 @@ export const colorChangingSlice = createSlice({
 
 
 export const { color,cursorColor,colorParticle } = colorChangingSlice.actions
-
 export default colorChangingSlice.reducer
