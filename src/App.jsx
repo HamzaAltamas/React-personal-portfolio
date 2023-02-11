@@ -18,10 +18,10 @@ import Contact from './pages/Contact';
 let router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Rootlayout/>}>
     <Route index element={<Home/>}/>
-    <Route path='/about' element={<About/>}/>
-    <Route path='/service' element={<Service/>}/>
-    <Route path='/portfolio' element={<Portfolio/>}/>
-    <Route path='/contact' element={<Contact/>}/>
+    <Route path='about' element={<About/>}/>
+    <Route path='service' element={<Service/>}/>
+    <Route path='portfolio' element={<Portfolio/>}/>
+    <Route path='contact' element={<Contact/>}/>
   </Route>
 ))
  
